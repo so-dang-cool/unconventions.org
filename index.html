@@ -2,40 +2,145 @@
 <html>
 <head>
   <title>Unconventions</title>
+
+  <!-- Hachi Maru Pop (Google font) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      align-items: center;
+      background-color: #111;
+    }
+
+    header, main, footer {
+      margin: auto;
+      margin-top: 32px;
+      width: clamp(256px, 60%, 512px);
+      padding: 32px;
+      border-radius: 32px 0;
+    }
+
+    header {
+      font-family: 'Hachi Maru Pop', cursive;
+      text-align: center;
+      background-color: #fca;
+    }
+
+    main {
+      font-family: Trebuchet, sans;
+      background-color: #eef;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #fca;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>Unconventions</h1>
-  <p>It's ok to <em>not</em> follow common conventions.</p>
-  <p>
-    I know, I know, someone made a website! They told the world that everyone
-    should do <a href="https://semver.org/">Semantic Versioning</a>,
-    <a href="https://www.conventionalcommits.org">Conventional Commits</a>, and
-    also they should <a href="https://keepachangelog.com">Keep a Changelog</a>.
-    The website looks nice and the idea itself even has a version!
-  </p>
-  <p>
-    Well, it's a convention. That's fine, and please follow it if you want to.
-    Not everyone will follow it, and that's a good thing. That's how we get
-    better conventions, for example. It's also fine to not be so serious, and
-    sometimes do programming <a href="https://justforfunnoreally.dev">Just for
-    Fun. No, really.</a>
-  </p>
-  <p>
-    So if someone comes to you and asks why you don't follow <em>&lt;insert
-    convention here&gt;</em> you can say that you choose to follow
-    "Unconventions, version 無限" instead.
-  </p>
+  <header>
+    <h1>Unconventions: 無限</h1>
+    <p>The forever-unconventional convention</p>
+  </header>
+  <main>
+    <p>Hey, you, internet person!</p>
+    <p>
+      It's ok to <em>not follow</em> common conventions. A project that follows
+      "unconventions" is choosing to opt out of one or more common conventions.
+      Perhaps they use a more obscure convention, or no convention at all.
+      Maybe it's explained, and maybe it's not.
+    </p>
+    <p>
+      Ok, I know, I know, someone made a nice website! They told the world that
+      everyone should do <a href="https://semver.org/">Semantic Versioning</a>,
+      <a href="https://www.conventionalcommits.org">Conventional Commits</a>, and
+      also they should <a href="https://keepachangelog.com">Keep a Changelog</a>.
+      The website looks polished, the idea sounds better than alternatives, and
+      wow the <em>convention</em> itself even has a version! Everyone obviously
+      has to adopt it and <b>we should flame the lazy bums that don't follow
+      the rules,</b> right?
+    </p>
+    <p>
+      <b>No.</b> Stop that.
+    </p>
+    <p>
+      Conventions are optional. They're fine if you like them, and often
+      helpful if other people you're interacting with follow them. Not everyone
+      will follow every convention that comes along, and hey, <em>that's a good
+      thing!</em> Every new and good convention came about because someone was
+      not following some older and worse conventions. (Of course: old ≢ bad)
+    </p>
+    <p>
+      It's also fine to not be so serious all the time, and sometimes do stuff,
+      you know, "<a href="https://justforfunnoreally.dev">Just for Fun. No,
+      really.</a>"
+    </p>
+    <p>
+      If someone comes to you and asks why you don't follow <em>&lt;insert
+      convention here&gt;</em> you can say that you choose to follow
+      Unconventions. If they're persistent and ask for a version, you can say
+      version 無限. All versions of unconventions should be considered the
+      same version. Version v1.0 and version "banana" are also the same as
+      version 無限 by convention.
+    </p>
+
+    <hr>
+
+    <h2 id="badge">
+      Addendum 1: A badge
+      <a href="#badge">🖇</a>
+    </h2>
+    <p>
+      <img src="https://img.shields.io/badge/unconventions-%E7%84%A1%E9%99%90-orange">
+    </p>
+    <p>
+      As Markdown:
+    </p>
+    <pre style="overflow:scroll;">
+[![unconventions.org](https://img.shields.io/badge/unconventions-%E7%84%A1%E9%99%90-orange)](unconventions.org)
+    </pre>
+
+    <br>
+    <h2 id="counter-convention">
+      Addendum 2: Counter convention
+      <a href="#counter-convention">🖇</a>
+    </h2>
+    <p>
+      Unconventions is not <em>against</em> conventions, but it carries a
+      spirit that is willing to listen to, and amplify, well-meaning critiques
+      of conventions. The following lists are intended to push conventions
+      forward, either to improve or to foster discussion that leads to newer
+      and better conventions.
+    <p>
+    <h3>Semantic Versioning</h3>
+    <ul>
+      <li>
+        <a href="https://youtu.be/oyLBGkS5ICk?t=1792">
+          "Semantic" Versioning "Semantics"
+        </a> from Rich Hickey's 2016 Clojure/conj keynote.
+      </li>
+    </ul>
+
+  </main>
+
+  <footer>
+    <p>
+      Since 2023, by <a href="https://so.dang.cool">J.R. Hill</a>.
+      <a href="https://github.com/so-dang-cool/unconventions.org">Site source here</a>
+    </p>
+  </footer>
 
   <!--
     TODO:
-    - Styling
-    - Github badges
-    - Link to github repo
     - Link to lesiw's blog on semver considered harmful
-    - Link to Rich Hickey's rant on semver
     - Some easter egg in the HTML source
   -->
-
 </body>
 </html>
 
